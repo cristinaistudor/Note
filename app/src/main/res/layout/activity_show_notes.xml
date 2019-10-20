@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context=".ShowNotes">
+
+    <TextView
+        android:id="@+id/allNotes"
+        android:layout_width="match_parent"
+        android:layout_height="647dp"
+        android:scrollbars="vertical"
+        android:textSize="20sp"
+        app:layout_anchor="@+id/allNotes"
+        app:layout_anchorGravity="center" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
